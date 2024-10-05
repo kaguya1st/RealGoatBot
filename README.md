@@ -39,12 +39,20 @@ Before you begin, make sure you have the following installed:
 - Click on RUN.bat to automatically install the required dependencies and run the project
 
 ## Menual Install/Run
-1. Install the required dependencies:
+1. Git reposito
+   ```bash
+   git clone https://github.com/kaguya1st/RealGoatBot.git
+   cd RealGoatBot
+   ```
+2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-2. Please edit the name file .env-example to .env and add your API_ID and API_HASH:
-   
+3. Please edit the name file .env-example to .env and add your API_ID and API_HASH:
+   ```bash
+   cp .env-example .env
+   nano .env
+   ```
 ## Usage
 1. Run the bot:
    ```bash
